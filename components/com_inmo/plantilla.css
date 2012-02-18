@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+.todo{
+	display: block;
+	position: relative;
+	margin-top:50px;
+	min-height: 350px;
+}
+.prueba {
+	width: 30%;
+	float: right;
+	margin-top: 30px;
+	}
+.moduletable_menuTodo{
+	
+}
+.moduletable_menuTodo ul{
+	background: none !important;
+	position: relative;
+ 	left:400px;
+ 	width: 600px;
+ 	top: -45px;
+}
+.moduletable_menuTodo ul li{
+	float: left;
+	qdisplay: inline;
+	width: 100px;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 1em;
+	margin: 0px 10px;
+	background-color: #4fae54;
+	border-radius: 5px;
+	text-align: center;
+	}
+.moduletable_menuTodo ul li a{
+	color: white;
+	}
+
+/******************* BUSCADOR *********************/
+
+
+.cuerpoBuscador{
+	display:block;
+	position:relative;
+	margin-top:80px;
+	min-height: 300px;
+}
+.buscador{
+	position:relative;
+	float:left;
+	width:29%;
+	height: 300px;
+	qbackground-color: #2c2f36;
+	background-image: url('/privilege/components/com_inmo/imagenes/fondometalico.png');
+	-moz-box-shadow:0px 0px 20px black;
+	-webkit-box-shadow:0px 0px 20px black;
+	box-shadow:0px 0px 20px black;
+	border-top-left-radius:20px;
+	border-bottom-left-radius: 20px;
+	margin-left: 20px;
+}
+.buscador p {;
+	margin-bottom: 0px;
+ 	margin-left: 20px;
+ 	color: #eceadb;
+}
+.buscador select{
+	margin-left:15px;
+	padding: 3px;
+}
+.buscador h3{
+	color:#eceadb;
+	margin-top:10px;
+ 	margin-left: 30px;
+ 	margin-bottom: 20px;
+}
+.buscadorIzquierda{
+	width:50%;
+	float:left;
+}
+.buscadorDerecha{
+	width:50%;
+	float:left;
+}
+.botonBuscar{
+	width: 100px;
+	background-color: #4fae54;
+	color: white;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+/******************* RESULTADO *********************/
+
+.resultadoCompleto{
+	position: relative;
+	float:left;
+	width: 60%;
+}
+.resultadoBusqueda{
+	margin-left: 30px;
+	height: 150px;
+	display: block;
+}
+.rbImagen{
+	float: left;
+	-moz-box-shadow:0px 0px 10px black;
+	-webkit-box-shadow:0px 0px 10px black;
+	box-shadow:0px 0px 10px black;
+	border-style: solid;
+	border-color: white;
+}
+.rbTexto{
+	float: left;
+	margin-left: 50px !important;
+	margin-right: 50px;
+}
+.rbTexto p{
+line-height: 10px;
+}

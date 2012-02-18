@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS `#__inmo`;
+DROP TABLE IF EXISTS `#__fotos`;

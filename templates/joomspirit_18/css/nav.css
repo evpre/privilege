@@ -1,0 +1,142 @@
+/* 
+*	left and right menu
+*/
+.submenu ul {
+margin:-5px 0 0 0;
+padding:0 0 10px 0;
+}
+.submenu li {
+display:block;
+border:none;
+}
+.submenu li a, .submenu li span.separator {
+display:block;
+background: url(../images/underline.png) bottom left repeat-x;
+color:#222;
+font-size:110%;
+text-align:left;
+text-transform: none;
+font-weight: normal;
+line-height:16px;
+margin:0;
+padding: 8px 12px 8px 2px;
+text-decoration:none;
+}
+.submenu li a:hover, .submenu li#current a, .submenu li#current.parent a {
+text-decoration:none;
+color:#e2001a;
+}
+.submenu ul ul {
+margin:0 0 0 12px;
+padding:0;
+}
+.submenu ul li li {
+}
+.submenu li li a, .submenu li li span.separator {
+background-image: none;
+border-bottom:1px dotted #ccc;
+font-size:95%;
+font-weight: normal;
+text-transform: none;
+color:#e2001a;
+line-height:12px;
+text-align:left;
+padding: 6px 4px 6px 5px;
+margin-bottom:1px;
+}
+.submenu li li a:first-child, .submenu li li span.separator:first-child {
+margin: 1px 0 1px 0;
+}
+.submenu li a:hover li a, .submenu li#current li a, .submenu li.active li a {
+background-image: none;
+text-decoration:none;
+color:#222;
+}
+.submenu li.parent li a, .submenu li.parent li span.separator {
+background-image: none;
+color:#222;
+}
+.submenu li#current.parent li a, .submenu li.active.parent li a {
+background-image: none;
+color:#222;
+}
+.submenu li li a:hover, .submenu li li#current a, .submenu li li#current.parent a,
+.submenu li#current li a:hover, .submenu li.active li a:hover, .submenu li.parent li a:hover {
+background-image: none;
+text-decoration:none;
+color:#e2001a;
+}
+.submenu ul ul ul {
+margin-left: 6px;
+}
+.submenu li li li a, .submenu li li li span.separator {
+background-image: none;
+font-size:90%;
+text-transform: none;
+font-weight: normal;
+color:#222;
+}
+.submenu li.active li#current li a {
+background-image: none;
+color:#222;
+}
+.submenu ul li li li a:hover, .submenu ul li li li#current a, .submenu ul li li li.active a,
+.submenu li.active li#current li a:hover {
+background-image: none;
+text-decoration:none;
+color:#e2001a;
+}
+.submenu li li li a:hover, .submenu li li li#current a, .submenu li li li.active a, .submenu li li li#current.parent a,
+.submenu li li#current li a:hover, .submenu li li.active li a:hover, .submenu li li.parent li a:hover {
+background-image: none;
+text-decoration:none;
+color:#e2001a;
+}
+/**	BOTTOM MENU		**/
+#bottom_menu {
+display:block;
+position:relative;
+z-index:100;
+list-style: none;
+padding:0 0 0 10px;
+text-align:left;
+/**	change	**/
+padding:0;
+}
+#bottom_menu .moduletable{
+margin:0;
+}
+#bottom_menu li{
+margin:0;
+padding:0;
+float:left;
+position:relative;
+list-style : none;
+/**	change	**/
+}
+#bottom_menu li a, #bottom_menu li span.separator {
+display:block;
+float : none !important;
+float : left;
+position:relative;
+z-index:1000;
+text-decoration:none;
+/**	change	**/
+text-transform: uppercase;
+font-weight:normal;
+color: #aaa;
+font-size:90%;
+text-align:left;
+padding: 0px 0 0 18px;
+margin: 0 0 0 18px;
+background: transparent url(../images/puce_top_menu.gif) 0 50% no-repeat;
+}
+#bottom_menu li:first-child a {
+background-image: none;
+margin: 0;
+padding:0;
+}
+#bottom_menu li a:hover, #bottom_menu li span.separator:hover, #bottom_menu li.active a {
+color: #006699;
+text-decoration: none;
+}

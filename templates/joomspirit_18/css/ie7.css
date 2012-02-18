@@ -1,0 +1,41 @@
+/*****************************************
+		SITE  IE7-
+******************************************/
+
+#nav_main {
+z-index:999;
+}
+
+#main_menu {
+width:100%;
+}
+
+#main_menu li {
+width:auto;
+}
+
+#main_menu li a, #main_menu li span.separator {
+height:28px;
+}
+
+#main_menu li li a, #main_menu li li span.separator {
+height:auto;
+}
+
+.pollstableborder tr .sectiontableentry1, .pollstableborder tr .sectiontableentry2,
+.categories-list dd, .categories-list dt, ul.pagenav li,
+span.content_vote input, span.content_rating img , .pagination li {
+display:inline;
+zoom:1;
+}
+
+
+/**		contact form	**/
+
+.contact-form dt {
+clear : both;
+}
+
+.contact-form dd {
+width:100%;
+}

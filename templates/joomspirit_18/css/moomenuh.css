@@ -1,0 +1,246 @@
+#main_menu {
+clear:both;
+display:block;
+height:28px;
+position:relative;
+z-index:100;
+list-style: none;
+margin:0;
+padding:0;
+text-align : left;
+/**	change	**/
+}
+
+#main_menu .moduletable{
+margin:0;
+}
+
+#main_menu li {
+margin:0;
+padding:0;
+height:28px;
+float:left;
+position:relative;
+list-style : none;
+/**	change	**/
+margin-top:-1px;
+padding-top:14px;
+}
+
+#main_menu li a, #main_menu li span.separator {
+display:block;
+float : none !important;
+float : left;
+position:relative;
+z-index:1000;
+text-decoration:none;
+/**	change	**/
+color: #eee;
+line-height:28px;
+text-transform: capitalize;
+letter-spacing: -0.5px;
+font-weight: normal;
+font-size:105%;
+padding:0px 18px;
+}
+
+#main_menu li li a, #main_menu li li span.separator{
+/**	change	**/
+color:#eee;
+float:none;
+font-size:100%;
+line-height: 13px;
+letter-spacing: 0;
+font-weight:normal;
+padding: 6px 2px 6px 5px;
+text-transform:none;
+width:152px;
+margin: 2px 4px 0px 4px;
+border: 1px solid #666;
+background-color:#333;
+}
+
+#main_menu li ul {
+display:none !important;
+width: 160px;
+position:absolute;
+z-index:99;
+left: -999em;
+clear:left;
+/**	change	**/
+margin-left:0;
+margin-top:0;
+padding: 6px 0 4px 0;
+background-image:none;
+}
+
+#main_menu li ul ul {
+margin: 1px 0 0 163px !important;
+/**	change	**/
+padding-top:0;
+background-image:none;
+z-index:199;
+}
+
+#main_menu li li {
+width:100%;
+height:auto;
+padding:0;
+}
+
+#main_menu li:hover ul ul, #main_menu li:hover ul ul ul,
+#main_menu li.sfhover ul ul, #main_menu li.sfhover ul ul ul {
+left: -999em;
+}
+
+#main_menu li:hover ul, #main_menu li li:hover ul, #main_menu li li li:hover ul,
+#main_menu li.sfhover ul, #main_menu li li.sfhover ul, #main_menu li li li.sfhover ul {
+left: auto;
+display:block !important;
+}
+
+/**	change	**/
+
+#main_menu li:hover, #main_menu li.active, #main_menu li.sfhover {
+border-top: 1px solid #fff;
+}
+
+#main_menu li ul li:hover, #main_menu li ul li.active, #main_menu li ul li.sfhover {
+border:none;
+}
+
+
+
+
+
+
+/** si est actif niveau 1 	**/
+#main_menu #current a, #main_menu #current span.separator {
+color: #e2001a;
+text-decoration:none;
+}
+
+/** si est actif niveau 2+ 	**/
+#main_menu ul #current a, #main_menu ul #current span.separator,
+#main_menu #current ul a:hover, #main_menu #current ul span.separator:hover {
+color: #e2001a;
+text-decoration:none;
+}
+
+/** si parent actif et enfant actif **/
+#main_menu li.active li a:hover, #main_menu li li.active li a:hover, #main_menu li li li.active li a:hover, #main_menu li.active li span.separator:hover,
+#main_menu li.active li li span.separator:hover, #main_menu li.active li li a:hover {
+color: #e2001a;
+text-decoration:none;
+}
+
+/** si est parent actif niveau 1	**/
+#main_menu li.active a, #main_menu li.active span.separator {
+color: #e2001a;
+text-decoration:none;
+}
+
+
+/** si est parent actif niveau 2+	**/
+#main_menu li li.active a, #main_menu li li li.active a, #main_menu li li li li.active a,
+#main_menu li.active li.active a, #main_menu li li.active li.active a, #main_menu li li li.active li.active a,
+#main_menu li li.active span.separator, #main_menu li.active li.active span.separator{
+color: #e2001a;
+text-decoration:none;
+}
+
+/** si est survol niveau 1	**/
+#main_menu li a:hover, #main_menu li a:hover, #main_menu li.sfhover span.separator, #main_menu li.sfhover a,
+#main_menu li span.separator:hover, #main_menu li span.separator:hover {
+color: #e2001a;
+text-decoration:none;
+}
+
+
+/** si est survol niveau 2+	**/
+#main_menu li li a:hover, #main_menu li li li a:hover, #main_menu li li a:hover, #main_menu li li li a:hover,
+#main_menu li.active li a:hover, #main_menu li li.active li a:hover, #main_menu li li li.active li a:hover,
+#main_menu li.active li.active a:hover, #main_menu li li.active li.active a:hover, #main_menu li li li.active li.active a:hover,
+#main_menu li li span.separator:hover, #main_menu li li span.separator:hover, #main_menu li.active li span.separator:hover,
+#main_menu li li.sfhover a, #main_menu li li.sfhover span.separator, #main_menu li li li.sfhover a, #main_menu li li li.sfhover span.separator {
+color: #e2001a;
+text-decoration:none;
+}
+
+/** si courant survol **/
+#main_menu li#current li a:hover, #main_menu li#current li span.separator:hover {
+color: #e2001a;
+text-decoration:none;
+}
+
+#main_menu li a:hover, #main_menu li span.separator:hover {
+color: #e2001a;
+text-decoration:none;
+}
+
+
+
+
+/** si est enfant **/
+#main_menu li li a, #main_menu li li li a, #main_menu li li li li a,
+#main_menu li li span.separator, #main_menu li li li span.separator, #main_menu li li li li span.separator  {
+color: #eee;
+}
+
+/** si est parent niveau 1	**/
+#main_menu li a, #main_menu li span.separator {
+color: #eee;
+text-decoration:none;
+}
+
+
+/** si est parent niveau 2+	**/
+#main_menu li li a, #main_menu li li li a, #main_menu li li li li a,
+#main_menu li li span.separator, #main_menu li li li span.separator, #main_menu li li li li span.separator {
+color: #eee;
+}
+
+/** si est enfant de parent actif niveau 1	**/
+#main_menu li.active li a, #main_menu li.active li span.separator {
+color: #eee;
+text-decoration:none;
+}
+
+
+/** si parent actif et enfant non actif **/
+#main_menu li.active li a, #main_menu li li.active li a, #main_menu li li li.active li a,
+#main_menu li.active li span.separator, #main_menu li li.active li span.separator, #main_menu li li li.active li span.separator {
+color: #eee;
+}
+
+
+#main_menu li.active li a, #main_menu li li.active li a, #main_menu li li li.active li a,
+#main_menu li.active li span.separator, #main_menu li li.active li span.separator, #main_menu li li li.active li span.separator {
+color: #eee;
+}
+
+#main_menu li#current li a, #main_menu li#current li span.separator {
+color: #eee;
+}
+
+#main_menu #current li a, #main_menu #current li span.separator {
+color: #eee;
+}
+
+/**	niveau 1	**/
+#main_menu #current li a, #main_menu #current li span.separator {
+color: #eee;
+}
+
+
+/**	niveau 2+	**/
+#main_menu #current li li a, #main_menu li.active li li a, #main_menu li li.active li li a, #main_menu li li li.active li li a,
+#main_menu li.active li.active li a, #main_menu li li.active li.active li a, #main_menu li li li.active li.active li a,
+#main_menu #current li li span.separator, #main_menu li.active li li span.separator, #main_menu li li.active li li span.separator, #main_menu li li li.active li li span.separator,
+#main_menu li.active li.active li span.separator, #main_menu li li.active li.active li span.separator, #main_menu li li li.active li.active li span.separator {
+color: #eee;
+}
+
+#main_menu #current li li a:hover, #main_menu #current li li span.separator:hover {
+text-decoration:none;
+}

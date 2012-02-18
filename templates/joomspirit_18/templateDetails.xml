@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="2.5" type="template">
+	<name>joomspirit_18</name>
+	<creationDate>01/07/2010</creationDate>
+	<author>JoomSpirit</author>
+	<copyright>Creative Commons Attribution-ShareAlike 2.0</copyright>
+	<authorEmail>contact@joomspirit.com</authorEmail>
+	<authorUrl>http://www.joomspirit.com</authorUrl>
+	<version>2.0</version>
+	<description>&lt;h2&gt;IMPORTANT : Read the settings for this template&lt;/h2&gt;
+	&lt;h3&gt;
+	&lt;span style="font-weight:bold;color:red;"&gt;All informations is in your zip template in "help" directory : you must just open the index.html&lt;/span&gt; &lt;br /&gt;
+	You will find in &lt;span style="color:blue;"&gt;how to configure the template, use the typography, the module positions for your modules, how to display tooltips, or another mootools effect of this template.&lt;/span&gt; &lt;br /&gt;
+	&lt;/h3&gt;
+	&lt;h4&gt;License&lt;/h4&gt;
+	This template is distributed under her licence &lt;a href ="http://www.creativecommons.org/licenses/by-nc/2.0/fr" &gt; Creative Commons Attribution 2.0 License. &lt;/a &gt;&lt;br/&gt;
+	It means that you are free:
+    &lt;ul&gt;
+	&lt;li&gt;to reproduce, distribute and communicate this creation to the public&lt;/li&gt;
+	&lt;li&gt;to perform this creation&lt;/li&gt;
+	&lt;/ul&gt;
+	</description>
+	
+<files>
+<filename>favicon.ico</filename>
+<filename>index.html</filename>
+<filename>index.php</filename>
+<filename>params.ini</filename>
+<filename>template_thumbnail.png</filename>
+<folder>css</folder>
+<folder>html</folder>
+<folder>images</folder>
+<folder>lib</folder>
+</files>
+
+<positions>
+
+		<position>menu</position>
+		<position>bottom_menu</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top_nav</position>
+		<position>top</position>
+		<position>search</position>
+		<position>bottom</position>
+		<position>inset</position>
+		<position>banner</position>
+		<position>header</position>
+		<position>footer</position>
+		<position>newsflash</position>
+		<position>adress</position>
+		<position>pathway</position>
+		<position>breadcrumb</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>logo</position>
+		<position>debug</position>
+		<position>syndicate</position>
+</positions>
+
+<config>
+	<fields name="params">
+		<fieldset name="basic" addfieldpath="/templates/joomspirit_18/lib/php2">
+
+	<field name="Header01" type="header" default="Width" label="" description="" />
+
+		<field name="width" type="text" default="980px" size="10" label="Web site width" description="Enter the width for your web site in px or % and without space. Example : 900px or 90% . Default : 980px" />
+		<field name="width_left" type="text" default="200px" size="10" label="Width of left column" description="Enter the width for your left column in px or % and without space. Example : 200px or 20%" />
+		<field name="width_right" type="text" default="200px" size="10" label="Width of right column" description="Enter the width for your right column in px or % and without space. Example : 200px or 20%" />
+
+	
+		<field name="user1_width" type="text" default="31%" size="10" label="Width of user1" description="Enter the width for user1 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+		<field name="user3_width" type="text" default="31%" size="10" label="Width of user3" description="Enter the width for user3 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+		<field name="user4_width" type="text" default="31%" size="10" label="Width of user4" description="Enter the width for user4 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+		<field name="user6_width" type="text" default="31%" size="10" label="Width of user6" description="Enter the width for user6 in px or % and without space. Example : 180px or 33% . Default : 31%" />
+
+	<field name="Header02" type="header" default="Colors" label="" description="" />
+	
+		<field name="color_link_content" type="text" default="#e2001a" label="Color for your link in content" description="Please select the color for your link in content that you would like to display. Default : #e2001a " />
+		<field name="color_active_link" type="text" default="#e2001a" label="Color for active link in menus" description="Please select the color for active link in menus that you would like to display. Default : #e2001a " />
+		<field name="color_title" type="text" default="#e2001a" label="Color for article and module title" description="Please select the color for article and module title that you would like to display. Default : #e2001a " />
+
+
+	<field name="Header03" type="header" default="Font size" label="" description="" />
+
+		<field name="fontSize" type="list" default="12px" label="Default font size" description="Set the default font size when template is loaded for the first time" >
+			<option value="10px">smallest</option>
+			<option value="11px">small</option>
+			<option value="12px">normal</option>
+			<option value="13px">big</option>
+			<option value="14px">biggest</option>
+		</field>
+
+	</fieldset>
+	</fields>		
+
+</config>
+
+</install>
