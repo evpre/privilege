@@ -118,6 +118,33 @@ margin-left:30px;
 .moduletable {
 margin-bottom:25px;
 }
+.moduletable_menuTodo ul{
+	background: none !important;
+	position: relative;
+ 	left:400px;
+ 	width: 600px;
+ 	top: -45px;
+}
+.moduletable_menuTodo ul li{
+	float: left;
+	qdisplay: inline;
+	width: 100px;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 1em;
+	margin: 0px 10px;
+	background-color: #4fae54;
+	border-radius: 5px;
+	text-align: center;
+	}
+.moduletable_menuTodo ul li a{
+	color: white;
+	padding: 10px 29px;
+	font-size: 130%;
+	}
+.moduletable_menuTodo ul li:hover{
+	background-image: url('/privilege/components/com_inmo/imagenes/fondometalico.png');
+	opacity: .5;
+}
 #content {
 position:relative;
 overflow:hidden;
@@ -506,7 +533,8 @@ margin:0;
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
-background: transparent url(../images/black-05.png) top left repeat;
+qbackground: transparent url(../images/black-05.png) top left repeat;
+opacity: 0.7;
 border-color: #ccc #eee #eee #ccc;
 }
 

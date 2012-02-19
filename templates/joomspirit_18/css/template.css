@@ -105,8 +105,8 @@ color:#e2001a;
 text-decoration : none;
 }
 a:hover {
-color:#e2001a;
-text-decoration : underline;
+qcolor:#e2001a;
+qtext-decoration : underline;
 }
 a:active, a:focus {
 outline:none;

@@ -13,27 +13,7 @@
 .moduletable_menuTodo{
 	
 }
-.moduletable_menuTodo ul{
-	background: none !important;
-	position: relative;
- 	left:400px;
- 	width: 600px;
- 	top: -45px;
-}
-.moduletable_menuTodo ul li{
-	float: left;
-	qdisplay: inline;
-	width: 100px;
-	border-bottom: 1px solid #DDDDDD;
-	padding: 1em;
-	margin: 0px 10px;
-	background-color: #4fae54;
-	border-radius: 5px;
-	text-align: center;
-	}
-.moduletable_menuTodo ul li a{
-	color: white;
-	}
+
 
 /******************* BUSCADOR *********************/
 
@@ -67,6 +47,7 @@
 	margin-left:15px;
 	padding: 3px;
 }
+
 .buscador h3{
 	color:#eceadb;
 	margin-top:10px;
